@@ -1,0 +1,23 @@
+{
+  "name": "quill-contentco",
+  "version": "1.0.7",
+  "description": "Quill extension to embed tweets",
+  "main": "webpack.config.js",
+  "authors": [
+    "contentco"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "content",
+    "quill",
+    "editor"
+  ],
+  "homepage": "https://github.com/contentco/quill-contentco",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

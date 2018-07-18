@@ -1,0 +1,42 @@
+{
+  "name": "quill-contentco",
+  "version": "1.0.7",
+  "description": "Quill Extension for Custom Content.co Toolbar Buttons",
+  "main": "webpack.config.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.27.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-loader": "^0.5.5",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.5",
+    "uglifyjs-webpack-plugin": "^0.4.3",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.11.2"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contentco/quill-contentco"
+  },
+  "keywords": [
+    "content",
+    "quill",
+    "editor"
+  ],
+  "author": "contentco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/contentco/quill-contentco/issues"
+  },
+  "homepage": "https://github.com/contentco/quill-contentco#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "preact": "^7.2.1",
+    "quill": "^1.3.6"
+  }
+}

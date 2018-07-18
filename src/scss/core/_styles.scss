@@ -1,0 +1,94 @@
+.ql-tweet {
+    &:hover {
+        path {
+            fill: $blue;
+        }
+    }
+}
+
+.ql-caption { 
+  width: 35px !important;
+    &:hover {
+        path {
+            fill: $blue;
+        }
+    }
+    &.ql-active {
+        path {
+            fill: $blue;
+        }   
+    }
+
+}
+
+.ql-blockquote {
+    &:hover {
+        g {
+            fill: $blue;
+        }
+    }
+    &.ql-active {
+        g {
+            fill: $blue;
+        }   
+    }
+}
+
+
+.ql-pullquote {
+    &:hover {
+        path  {
+            fill: $blue;
+        }
+    }
+    &.ql-active {
+        path {
+            fill: $blue;
+        }   
+    }
+}
+
+
+.blog__pullquote {
+  font-style: normal;
+  font-size: 20px;
+  display: block;
+  padding-left: 30px;
+  padding-right: 50px;
+  display: block;
+
+}
+
+
+/* static label */
+.ql-picker.ql-textpicker .ql-picker-label:before {
+    content: "Select Format";     /* never changes its content as this menu's label changes */
+}
+/* dynamic label */
+// .ql-picker.ql-textpicker .ql-picker-label:before[data-value="h2"]:before {
+//     content: "Headline";
+// }
+/* options */
+.ql-picker.ql-textpicker .ql-picker-item:before {
+    content: "Paragraph";
+}
+.ql-picker.ql-textpicker .ql-picker-item[data-value="h2"]:before {
+    content: "Headline";
+}
+.ql-picker.ql-textpicker .ql-picker-item[data-value="h3"]:before {
+    content: "Subheadline";
+}
+.ql-picker.ql-textpicker .ql-picker-item[data-value="h4"]:before {
+    content: "Subsubheadline";
+}
+
+.ql-picker.ql-textpicker .ql-picker-item[data-value="cap"]:before {
+    content: "Caption";
+}
+
+.ql-picker.ql-textpicker .ql-picker-label {
+    padding-right: 18px;
+}
+
+
+/* you need to specify rules as many as your options */
