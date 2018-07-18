@@ -9,7 +9,7 @@ class Lead extends Block {
 }
 
 Lead.blotName = 'lead';
-Lead.tagName = 'P';
+Lead.tagName = 'DIV';
 Lead.className = 'blog__lead';
 
 Icon['lead'] = Lead.icon();
