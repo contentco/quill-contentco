@@ -6,27 +6,19 @@
     }
 }
 
-.ql-caption { 
-  width: 35px !important;
-    &:hover {
-        path {
-            fill: $blue;
-        }
+.ql-lead,
+.ql-caption,
+.ql-section {
+  &:hover,
+  &.ql-active {
+    .main {
+      fill: $blue;
     }
-    &.ql-active {
-        path {
-            fill: $blue;
-        }   
-    }
-
+  }
 }
 
 .ql-blockquote {
-    &:hover {
-        g {
-            fill: $blue;
-        }
-    }
+    &:hover,
     &.ql-active {
         g {
             fill: $blue;
@@ -36,11 +28,7 @@
 
 
 .ql-pullquote {
-    &:hover {
-        path  {
-            fill: $blue;
-        }
-    }
+    &:hover,
     &.ql-active {
         path {
             fill: $blue;
@@ -57,6 +45,19 @@
   padding-right: 50px;
   display: block;
 
+}
+
+
+.blog__section {
+  display: flex;
+  align-items: center;
+
+  &:after {
+    content: '';
+    border-bottom: 2px solid black;
+    flex-grow: 1;
+    margin-left: 20px;
+  }
 }
 
 
